@@ -1,4 +1,4 @@
-﻿//Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+﻿// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
 Console.Clear();
 
@@ -11,9 +11,9 @@ int numberB = int.Parse(Console.ReadLine()!);
 
 if (numberA > numberB)
 {
-   Console.WriteLine($"Наибольшее число: {numberA}, наименьшее число: {numberB}");
+    Console.WriteLine($"Наибольшее число: {numberA}, наименьшее число: {numberB}");
 }
-else 
+else
 {
     Console.WriteLine($"Наибольшее число: {numberB}, наименьшее число: {numberA}");
 }
